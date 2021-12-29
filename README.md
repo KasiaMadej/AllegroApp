@@ -6,6 +6,6 @@ Widok główny wyszukiwania użytkowników dostępny jest pod adresem: localhost
 ### Jak uruchomić?
 
 Aplikacja wymaga zainstalowania Maven i wykonania komendy:
-''' mvn clean install '''
+    mvn clean install
 Aby włączyć należy użyć komendy
-''' mvn spring-boot:run'''
+    mvn spring-boot:run
