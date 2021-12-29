@@ -1,0 +1,9 @@
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/exceptions/UserNotFoundException.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/utils/Constants.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/AllegroApplication.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/dto/UserRepoDto.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/models/UserRepo.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/controllers/GitController.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/services/GitServiceImpl.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/models/Search.java
+/home/ubuntu/Pobrane/allegro/src/main/java/com/allegro/services/GitService.java

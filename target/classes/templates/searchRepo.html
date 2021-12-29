@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Search repo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>Github user's repositories search form:</h1>
+    </div>
+    <div class="row">
+        <form action="#" th:action="@{/gitRepos}" th:object="${search}" method="post">
+            <p>Github username: <input type="text" th:field="*{username}"/></p>
+            <p><input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div>
+</div>
+</body>
+
+<script th:src="@{/webjars/jquery/3.0.0/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/1.12.9-1/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js}"></script>
+
+</html>
